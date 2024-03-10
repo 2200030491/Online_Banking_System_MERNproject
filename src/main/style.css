@@ -1,0 +1,288 @@
+.main {
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px;
+    border-radius: 8px;
+  }
+  .main-sub1 {
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .input-field {
+    position: relative;
+    width: 100%;
+  }
+  .username-field{
+    border-radius: 45rem;
+  }
+  .input {
+    margin-top: 15px;
+    width: 100%;
+    outline: none;
+    border-radius: 8px;
+    height: 45px;
+    border: 1.5px solid #ecedec;
+    background: transparent;
+    padding-left: 10px;
+  }
+  .input:focus {
+    border: 1.5px solid #2d79f3;
+  }
+  .input-field .label {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    color: #464646;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    z-index: 2;
+  }
+  .input-field .input:focus ~ .label,
+  .input-field .input:valid ~ .label {
+    top: 5px;
+    left: 5px;
+    font-size: 12px;
+    color: #2d79f3;
+    background-color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .submit-btn {
+    margin-top: 30px;
+    height: 55px;
+    background: #f2f2f2;
+    border-radius: 11px;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #363636 0%, #1b1b1b 50%, #000000 100%);
+    box-shadow: 0px 0px 0px 0px #ffffff, 0px 0px 0px 0px #000000;
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    box-shadow: 0px 0px 0px 2px #ffffff, 0px 0px 0px 4px #0000003a;
+  }
+  nav{
+    background-color: rgba(13, 0, 255, 0.694);
+    top: 0;
+    width: 100%;
+}
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black; 
+  }
+  nav ul {
+    text-align: center;
+  }
+  nav a:hover{
+    background-color:bisque ;
+    border-radius: 0.4rem;
+  }
+  nav li {
+    display: inline;
+    margin-right: 20px; 
+  } 
+
+  /* styles.css */
+
+.homepage {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color:burlywood;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.hero-text {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.hero-text h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.feature-item {
+  flex: 1 1 300px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.feature-item img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.feature-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 16px;
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+/* style.css */
+
+/* Main container */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Sub-container for the title */
+.main-sub1 {
+  margin-bottom: 20px;
+}
+
+/* Title */
+.main-sub2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Form container */
+.main-sub3 {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Input field styles */
+.input-field {
+  margin-bottom: 20px;
+}
+
+.username,
+.email,
+.mobile,
+.accountnumber,
+.password-label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.username-field,
+.email-field,
+.mobile-field,
+.accountnumber-field,
+.password-field {
+  margin-top: 5px;
+}
+
+/* Button style */
+.button1 {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Paragraph style */
+.para1 {
+  font-size: 14px;
+  color: #333;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Login link style */
+.login {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login:hover {
+  text-decoration: underline;
+}
+
+/* Forgot password link style */
+.forgot {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
